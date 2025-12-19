@@ -2,6 +2,8 @@
 
 > AI Model Integrity Monitoring Platform
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/modelwatch?style=social)](https://github.com/yksanjo/modelwatch/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/modelwatch.svg)](https://github.com/yksanjo/modelwatch/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/modelwatch.svg)](https://github.com/yksanjo/modelwatch/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/modelwatch.svg)](https://github.com/yksanjo/modelwatch/commits/main)
+
 ## What This Is
 
 ModelWatch is an open-source platform that continuously monitors AI models to detect when they're degrading, drifting, or being tampered with. It's like a health monitor for your AI systems - telling you when something's wrong before it causes problems.
