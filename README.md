@@ -1,63 +1,66 @@
 # ModelWatch
 
-> AI Integrity Monitoring Platform for Financial Services
+> AI Model Integrity Monitoring Platform
 
-[![License](https://img.shields.io/badge/license-Proprietary-blue.svg)](LICENSE)
-[![Documentation](https://img.shields.io/badge/docs-complete-brightgreen.svg)](product-specification.md)
+## What This Is
 
-## 🎯 Overview
+ModelWatch is an open-source platform that continuously monitors AI models to detect when they're degrading, drifting, or being tampered with. It's like a health monitor for your AI systems - telling you when something's wrong before it causes problems.
 
-ModelWatch is part of the **Agentic AI Security Suite for Financial Institutions** - a comprehensive platform designed to prevent agentic AI financial disruption in 2026.
+## The Current Landscape
 
-## 📚 Documentation
+AI models are being deployed everywhere in finance - for trading decisions, credit scoring, fraud detection, customer service, you name it. But here's the thing: AI models don't stay perfect forever. They can degrade over time as data changes, or they can be compromised, or they can just start making worse decisions.
 
-- **[Product Specification](product-specification.md)** - Complete product documentation
-- **[Suite Overview](../README_FINANCIAL_INSTITUTIONS.md)** - Full suite documentation for G-SIBs
-- **[Quick Reference](../QUICK_REFERENCE_G-SIBs.md)** - Executive summary
+The problem is, most organizations deploy a model and then... hope it keeps working. They don't have good tools to detect when a model is drifting (making worse predictions) or when it's been tampered with. By the time they notice something's wrong, it might have already caused problems.
 
-## 🏦 Target Institutions
+Regulatory bodies are starting to require model risk management (like OCC's SR 11-7), but the tooling is still catching up. ModelWatch is our attempt to make model monitoring accessible and open.
 
-This product is designed for **Global Systemically Important Banks (G-SIBs)**:
+## Why We Built This
 
-- JPMorgan Chase & Co.
-- Morgan Stanley
-- Bank of America
-- Citigroup Inc.
-- Goldman Sachs
-- Wells Fargo
-- U.S. Bancorp
-- Other G-SIBs globally
+We built ModelWatch because we saw organizations deploying AI models without good monitoring. When models fail in finance, it can cause real problems - bad trading decisions, incorrect credit scores, missed fraud, etc.
 
-## 🚀 Quick Start
+By open-sourcing this:
+- **Organizations can monitor their models** - Without expensive proprietary tools
+- **The community can improve detection** - More use cases means better drift detection
+- **Knowledge gets shared** - We can all learn from model failures
+- **Transparency builds trust** - Model monitoring should be open and auditable
 
-1. **Review** the [Product Specification](product-specification.md)
-2. **Schedule** an executive briefing
-3. **Request** a technical assessment
-4. **Begin** proof-of-concept discussion
+This is about making AI models more reliable, not stopping their use.
 
-## 💰 Pricing
+## What ModelWatch Does
 
-### Starter Edition
-Starting at $75K-200K/year depending on product
+ModelWatch continuously monitors your AI models and detects:
+- **Data drift** - When the input data changes in ways that affect model performance
+- **Concept drift** - When the model's predictions start getting worse
+- **Model tampering** - When someone modifies the model without authorization
+- **Performance degradation** - When accuracy, precision, or other metrics decline
 
-### Professional Edition
-Starting at $250K-600K/year
+It can automatically rollback to previous model versions, generate compliance reports, and provide A/B testing frameworks for safe model updates. It integrates with major ML platforms (AWS SageMaker, Azure ML, Google Vertex AI, etc.) and works with any model type.
 
-### Enterprise Edition
-$750K-3M/year (custom pricing for G-SIBs)
+## Who This Is For
 
-### PE Portfolio License
-Custom pricing for portfolio-wide deployment
+This is for:
+- **Data scientists** deploying models who want to monitor them
+- **ML engineers** managing model lifecycles
+- **Risk teams** responsible for model governance
+- **Compliance teams** preparing for regulatory examinations
+- **Anyone** deploying AI models in production
 
-## 📋 Features
+## Current Status
 
-See [Product Specification](product-specification.md) for complete feature list.
+This is an open-source project in active development. We're building this in public because we believe model monitoring should be accessible to everyone.
 
-## 🔗 Related Products
+## Getting Started
 
-This product is part of a 10-product suite:
+1. Check out the [product specification](product-specification.md) for detailed technical information
+2. Review the [Cursor AI prompts](CURSOR_AI_PROMPTS_COMPLETE.md) if you want to build your own version
+3. Read the [executive brief](EXECUTIVE_BRIEF.md) for a high-level overview
+4. Contribute, fork, or use this however it helps you
 
-1. [AgentGuard](../agentguard) - Unified AI Agent Security
+## Related Projects
+
+This is part of a suite of 10 open-source tools for AI agent security in finance:
+
+1. [AgentGuard](../agentguard) - Unified AI Agent Security & Governance
 2. [CodeShield AI](../codeshield-ai) - Secure Development Gateway
 3. [PaymentSentinel](../paymentsentinel) - Real-Time Transaction Defense
 4. [LegacyBridge](../legacybridge-ai-gateway) - Legacy Core Protection
@@ -68,16 +71,25 @@ This product is part of a 10-product suite:
 9. [SupplyChainGuard](../supplychainguard) - Development Tool Security
 10. [ComplianceIQ](../complianceiq) - Regulatory Reporting
 
-## 📞 Contact
+## Contributing
 
-- **Enterprise Sales**: [Contact Information]
-- **Technical Assessment**: [Contact Information]
-- **Regulatory Advisory**: [Contact Information]
+We welcome contributions! Whether it's:
+- Bug reports
+- Feature suggestions
+- Code improvements
+- Documentation fixes
+- New drift detection algorithms
 
-## 📄 License
+Everything helps make these tools better for everyone.
 
-Proprietary - Enterprise License Required
+## License
+
+MIT License - Use it however you want.
+
+## Disclaimer
+
+This is open-source software provided as-is. Use at your own risk. We're not responsible for any losses or damages. This is a community project, not a commercial product.
 
 ---
 
-**Part of the Agentic AI Security Suite - Purpose-Built for G-SIBs**
+**Built with the hope that open collaboration can make AI models more reliable for everyone.**
