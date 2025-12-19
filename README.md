@@ -92,7 +92,33 @@ This is for:
 - **Risk teams** responsible for model governance
 - **Compliance teams** preparing for regulatory examinations
 - **Mid-market organizations** who can't afford $500K+ model risk platforms
+- **Banks doing modern ML** (fraud, recommendation, personalization)
 - **Anyone** deploying AI models in production
+
+## Target Segments
+
+### Banks Doing Modern ML
+**Why We Fit**: SAS was built for credit scoring models from 1990. We're built for modern ML.
+
+**Positioning**: "SAS was built for credit scoring models from 1990. We're built for the ML models you're deploying today."
+
+### Mid-Market Organizations
+**Why We Fit**: Can't afford $500K+ model risk platforms, but need monitoring.
+
+**Positioning**: "Real-time model monitoring at mid-market prices."
+
+### Organizations Using Modern ML Frameworks
+**Why We Fit**: PyTorch, TensorFlow native (SAS is legacy).
+
+**Positioning**: "Modern ML focus: PyTorch, TensorFlow native. SAS is legacy."
+
+## Our Competitive Advantages
+
+1. **Modern ML Support**: Built for PyTorch, TensorFlow, modern frameworks (they focus on SAS models)
+2. **Real-Time vs. Quarterly**: We detect drift in minutes, they report quarterly
+3. **10x Faster Setup**: 1 hour vs. 6 months
+4. **Automated Rollback**: One-click recovery (they require manual processes)
+5. **Open Source**: Free vs. $500K+ annual licenses
 
 ## Current Status
 
